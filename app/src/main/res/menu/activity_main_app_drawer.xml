@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="RxAndroid samples">
+        <menu>
+            <item android:id="@+id/nav_github_issues" android:icon="@drawable/ic_bug_report_black_24dp"
+                android:title="Github Issues" />
+            <item android:id="@+id/nav_forum_entry" android:icon="@drawable/ic_subject_black_24dp"
+                android:title="Forum Error Check" />
+        </menu>
+    </item>
+</menu>

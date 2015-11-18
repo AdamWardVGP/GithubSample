@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">GithubSample</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="welcome_message">Welcome to my test app!\n\nThis is the space I use for testing out new android features, libraries, or just other bits of code I find interesting.</string>
+    <string name="action_info">info</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email_address">Email Address</string>
+    <string name="pin_number">Pin Number</string>
+    <string name="name">Name</string>
+</resources>
