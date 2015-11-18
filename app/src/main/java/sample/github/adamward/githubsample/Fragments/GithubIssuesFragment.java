@@ -20,7 +20,7 @@ import rx.Subscription;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 import sample.github.adamward.githubsample.GithubAPI;
-import sample.github.adamward.githubsample.GithubIssue;
+import sample.github.adamward.githubsample.Models.GithubIssue;
 import sample.github.adamward.githubsample.GithubIssueAdapter;
 import sample.github.adamward.githubsample.R;
 
@@ -56,7 +56,7 @@ public class GithubIssuesFragment extends BaseFragment {
         issueAdapter = new GithubIssueAdapter(this.getActivity(),mIssues);
         mResultList.setAdapter(issueAdapter);
 
-        mSubscription = githubApi.get().listIssues("rails","rails")
+        mSubscription = githubApi.get().listIssues("AdamWardVGP","GithubSample")
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Observer<List<GithubIssue>>() {

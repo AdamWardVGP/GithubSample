@@ -1,4 +1,4 @@
-package sample.github.adamward.githubsample;
+package sample.github.adamward.githubsample.Models;
 
 final public class GithubIssue {
     public final int id;
