@@ -3,8 +3,9 @@
     android:layout_height="match_parent"
     tools:context="sample.github.adamward.githubsample.Fragments.Welcome">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView android:layout_width="match_parent" android:layout_height="match_parent"
+    <TextView
+        android:id="@+id/welcome_message"
+        android:layout_width="match_parent" android:layout_height="match_parent"
         android:text="@string/welcome_message" />
 
 </FrameLayout>
